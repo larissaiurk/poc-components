@@ -1,6 +1,8 @@
 {
-  "version": "0.1.0",
+  "name": "@larissaiurk/poc-components",
+  "version": "1.0.0",
   "license": "MIT",
+  "description": "Poc components library",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "files": [
@@ -10,6 +12,14 @@
   "engines": {
     "node": ">=10"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larissaiurk/poc-components.git"
+  },
+  "bugs": {
+    "url": "https://github.com/larissaiurk/poc-components/issues"
+  },
+  "homepage": "https://github.com/larissaiurk/poc-components#readme",
   "scripts": {
     "start": "tsdx watch",
     "build": "tsdx build",
@@ -35,7 +45,6 @@
     "singleQuote": true,
     "trailingComma": "es5"
   },
-  "name": "poc-components",
   "author": "Larissa Iurk Leal",
   "module": "dist/poc-components.esm.js",
   "size-limit": [
